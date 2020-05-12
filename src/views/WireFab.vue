@@ -93,7 +93,7 @@ export default {
 												params.append("predia", this.predia)
 												params.append("prelen", this.prelen)
 												params.append("fabdia", this.fabdia)
-												axios.post('http://localhost:1000', params
+												axios.post('https://wirefabapi.herokuapp.com/', params
 												).then((response) => {
 																console.log(response)
 																this.respfablen = response.data.Fablen
